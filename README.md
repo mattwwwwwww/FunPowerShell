@@ -16,7 +16,7 @@ This script will take this department list and create Organisation Units based o
 1. Run the script.
 
 2. In the same PowerShell session run:
-`Create-FullUserSetup -PathwayToCSV <CSV FILE LOC> -DepartmentTextFile <Department FILE LOC>
+`Create-FullUserSetup -PathwayToCSV "CSV FILE LOC" -DepartmentTextFile "Department FILE LOC"
 Ensure you are running this in Administrator mode as a user who has the rights to create Users and OUs in AD.
 
 3. Confirm in ADUC that the OU's have been created, the Users have been correctly assigned into the OUs and that the Users have the correct properties. 
